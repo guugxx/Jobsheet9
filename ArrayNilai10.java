@@ -12,9 +12,15 @@ public class ArrayNilai10 {
         }
 
         // Tampilkan semua nilai
-        System.out.println("\n=== Daftar Nilai Akhir ===");
-        for (int i = 0; i < 10; i++) {
-            System.out.println("Nilai akhir ke-" + i + " adalah " + nilaiAkhir[i]);
-        }
+        for (int i = 0; i < nilaiAkhir.length; i++) {
+    if (nilaiAkhir[i] > 70) {
+        System.out.println("Mahasiswa ke-" + (i+1) + " : LULUS");
+    } else {
+        System.out.println("Mahasiswa ke-" + (i+1) + " : TIDAK LULUS");
     }
 }
+
+    }
+
+        }
+
